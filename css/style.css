@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap');
+
+body{
+    background-color: #6e5c62;
+}
+
+header h1{
+    font-family: "Mitr", sans-serif;
+    font-weight: 600;
+    font-size: 4vh;
+    line-height: 6vh;
+    height: 6vh;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.linhas{
+    display: grid;
+    grid-template-columns: repeat(5, 1em);
+    grid-gap: 0.05em;
+    font-size: 1em;
+    height: 1em;
+    margin: 0;
+    background-color: #615458;
+    border: 0.125em solid #4C4347;
+    box-sizing: border-box;
+    font-family: "Mitr", sans-serif;
+    font-weight: 600;
+    font-size: 0.65rem;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+
+.letra{
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.letraVazia{
+    background-color: transparent;
+    border: 0.125em solid #4C4347;
+}
